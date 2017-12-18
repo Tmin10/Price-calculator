@@ -1,0 +1,9 @@
+table {
+    width: 80%;
+}
+table td {
+    text-align: center;
+}
+table input {
+    width: 90%;
+}

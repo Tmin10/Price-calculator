@@ -1,0 +1,35 @@
+{
+    "short_name": "Price calculator",
+    "name": "Price calculator",
+    "icons": [
+        {
+            "src": "launcher-icon-1x.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "launcher-icon-2x.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "launcher-icon-4x.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "launcher-icon-8x.png",
+            "type": "image/png",
+            "sizes": "384x384"
+        },
+        {
+            "src": "launcher-icon-16x.png",
+            "type": "image/png",
+            "sizes": "768x768"
+        }
+    ],
+    "start_url": "index.html?launcher=true",
+    "display": "standalone",
+    "theme_color": "#2196F3",
+    "background_color": "#2196F3"
+}
