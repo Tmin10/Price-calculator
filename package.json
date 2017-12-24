@@ -1,15 +1,28 @@
 {
   "name": "price-calculator",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Price calculator",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Tmin10",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:Tmin10/Price-calculator.git"
+  },
   "dependencies": {
     "local-web-server": "^2.3.0",
     "muicss": "^0.9.35"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.6",
+    "style-loader": "^0.19.1",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0"
   }
 }
